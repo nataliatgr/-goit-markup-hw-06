@@ -1,22 +1,16 @@
-button {
-    cursor: pointer;
-}
+
 .container { 
     width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px; 
     }
-    a {
-        text-decoration: none;
-        }
+
 
   .container-top {
     padding: 24px;
   }   
-    img {
-        display: block;
-    }
+
     .container-top {
         display: flex;
     }    
@@ -39,16 +33,7 @@ button {
     padding bottom: 24px;
     display: block;
 }
-body {
-    font-family: "Roboto", sans-serif;
-    background-color: #FFFFFF;
-    color: #434455;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: left;
-    }      
+     
     .link-logotype-top {
         font-family: "Raleway", sans-serif;
         text-transform: uppercase;
@@ -113,7 +98,7 @@ body {
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .header-top {
-        justify-content: center;
+  justify-content: center;
   align-items: center;
   flex-shrink: 0;
   background: var(--white, #fff);  
@@ -155,15 +140,7 @@ body {
     .order-button:focus {
         background-color: #404BBF;
     }
-    ul {
-        list-style-type: none;
-        font-style: normal;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: 0;
-        margin-right: 0;
-        padding-left: 0;
-        }
+    
 .hero {
 font-family: Roboto;
 weight: Bold;
@@ -224,18 +201,7 @@ margin: 0 auto;
         margin-right: auto; 
         margin-left: auto;
     }   
-    .visually-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
-    } 
+
     .advantages {
         padding-top: 120px;
         padding-bottom: 120px;
@@ -425,12 +391,7 @@ margin: 0 auto;
     color: #434455; 
     margin: 0;
 }
-p {
-    margin: 0;
-}
-h3{
-    margin: 0;
-}
+
 .footer-app {
     background-color: #2e2f42;
 }
