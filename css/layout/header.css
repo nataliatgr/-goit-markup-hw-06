@@ -17,7 +17,7 @@
     align-items: center;
   }
 
-  /* mobile menu */
+  /* MOBILE MENU */
 
   .mobile-menu {
     position: fixed;
@@ -90,7 +90,7 @@
   color: #404bbf;
 } 
 
-/* address mobile menu */
+/* ADDRESS MOBILE MENU */
 
 .contacts-mobile-menu{
   margin-bottom: 48px;
@@ -110,7 +110,7 @@ letter-spacing: 0.4px;
   padding-bottom: 24px;
 }
 
-/* social list mobile menu */
+/* SOCIAL MOBILE MENU */
 
 .list-socials-mobile {
   display: flex;
@@ -158,7 +158,7 @@ letter-spacing: 0.4px;
   width: 71px;
 }
 
-/* table header */
+/* TABLE HEADER */
 
 @media screen and (min-width: 768px) {
 .mobile-menu,
@@ -244,7 +244,7 @@ letter-spacing: 0.4px;
 }
 }
 
-/* header for desktop */
+/* DESKTOP HEADER */
 
 @media screen and (min-width: 1158px) {
   
