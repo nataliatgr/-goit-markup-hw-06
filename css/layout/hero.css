@@ -229,7 +229,7 @@
   @media screen and (min-resolution: 192dpi) and (max-width: 767px),
     screen and (min-resolution: 2dppx) and (max-width: 767px),
     screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
-      .first-block {
+      .hero {
         background-image: linear-gradient(
             to bottom,
             rgba(46, 47, 66, 0.7),
@@ -286,7 +286,7 @@
   
   @media screen and (min-width: 768px) {
     
-    .first-block {
+    .hero {
       background: #2e2f42;
       max-width: 1157px;      
       margin: 0 auto;
@@ -296,7 +296,7 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
       ),
-      url(../../images/talet-bg.jpg);
+      url(../../images/office-people-bg.jpg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -304,17 +304,17 @@
   @media screen and (min-resolution: 192dpi) and (min-width: 768px),
     screen and (min-resolution: 2dppx) and (min-width: 768px),
     screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
-    .first-block {
+    .hero {
       background-image: linear-gradient(
           to bottom,
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
           ),
-      url("../../images/talet-bg@2x.jpg");
+      url("../../images/office-people-bg@2x.jpg");
     }
   }
     
-    .title {
+    .hero-header {
       font-size: 56px;
       line-height: 1.07; /* 107.143% */
       letter-spacing: 1.12px;
@@ -322,7 +322,7 @@
       padding: 0;
     }
     
-  /* backdrop */
+  /* BACKDROP */
   
   .backdrop {
     position: fixed;
@@ -345,7 +345,7 @@
     pointer-events: auto;
   }
   
-  .backdrop-modal {
+  .form-container {
     padding: 72px 24px 24px 24px;
     position: absolute;
     top: 50%;
@@ -360,7 +360,7 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .btn-backdrop-close {
+  .order-button-footer {
     position: absolute;
     top: 24px;
     right: 24px;
@@ -377,18 +377,18 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .btn-backdrop-close:hover,
-  .btn-backdrop-close:focus {
+  .order-button-footer:hover,
+  .order-button-footer:focus {
     background-color: #404bbf;
     border: none;
     fill: #ffffff;
   }
   
-  .img-btn-backdrop {
+  .close-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .backdrop-text {
+  .form-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -398,11 +398,11 @@
     margin-bottom: 16px;
   }
   
-  .backdrop-form {
+  .input-cont {
     margin-bottom: 8px;
   }
   
-  .backdrop-label {
+  .label-form-name {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -410,11 +410,11 @@
     display: block;
     margin-bottom: 4px;
   }
-  .container-form {
+  .input-name {
     position: relative;
   }
   
-  .input-form {
+  .input-area {
     width: 100%;
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -425,29 +425,29 @@
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .input-form:focus {
+  .input-area:focus {
     border-color: #4d5ae5;
   }
-  .input-form:focus + .img-form-backdrop {
+  .input-area:focus + .img-form-backdrop {
     fill: #4d5ae5;
   }
   
-  .img-form-backdrop {
+  .svg-form {
     position: absolute;
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .img-form-backdrop:focus {
+  .svg-form:focus {
     fill: #4d5ae5;
   }
   
-  .container-form-comment {
+  .form-box {
     margin-bottom: 16px;
   }
   
-  .field-text-form {
+  .textarea-input {
     width: 100%;
     height: 120px;
     font-size: 12px;
@@ -462,21 +462,21 @@
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .field-text-form:focus {
+  .textarea-input:focus {
     border-color: #4d5ae5;
   }
   
-  .checkbox-form-container {
+  .callback-checkbox {
     margin-bottom: 24px;
   }
-  .checkbox-form-label {
+  .checkbox-policy {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
   }
   
-  .checkbox-form-own {
+  .checkbox-icon {
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -492,18 +492,18 @@
     cursor: pointer;
   }
   
-  .checkbox-form-input:checked + .checkbox-form-label > .checkbox-form-own {
+  .checkbox-input:checked + .checkbox-form-label > .checkbox-form-own {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
   }
   
-  .form-checkbox-backdrop-link {
+  .policy-link {
     color: #4d5ae5;
     text-decoration: underline;
   }
   
-  .form-backdrop-button-sent {
+  .form-button {
     margin: 0 auto;
     display: block;
     min-width: 169px;
@@ -523,13 +523,12 @@
   
   }
   
-  /* for desktop */
+  /* DESKTOP */
   
   @media screen and (min-width: 1158px) {
-    .first-block {
+    .hero {
       background: #2e2f42;
-      max-width: 1440px;
-      
+      max-width: 1440px;      
       margin: 0 auto;
       padding: 188px 0;
       background-image: linear-gradient(
@@ -537,7 +536,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(./../../images/people-office.jpg);
+        url(./../../images/office-people.jpg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -545,17 +544,17 @@
     @media screen and (min-resolution: 192dpi) and (min-width: 1158px),
     screen and (min-resolution: 2dppx) and (min-width: 1158px),
     screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
-    .first-block {
+    .hero {
       background-image: linear-gradient(
           to bottom,
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-      url("./../../images/people-office@2x.jpg");
+      url("./../../images/office-people@2x.jpg");
     }
     }
   
-    .title {
+    .hero-header {
       color: #fff;
       font-size: 56px;
       font-style: normal;
