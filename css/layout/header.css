@@ -3,6 +3,8 @@
     background-color: #fff;
     border: none;
   }
+
+
   .contact-nav {
     display: none;
   }
@@ -184,7 +186,7 @@ letter-spacing: 0.4px;
 
 @media screen and (min-width: 768px) {
 .mobile-menu,
-.btn-mobail-menu {
+.btn-mobile-menu {
   display: none;
 }
 .header-top {
