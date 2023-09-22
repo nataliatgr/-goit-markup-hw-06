@@ -76,6 +76,28 @@
     flex-shrink: 0;
     fill: #f4f4fd;
   }
+
+  .acsent-logo-top {
+    color: #2e2f42;
+  }
+  .link-logotype {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-bottom: 16px; 
+  }
+  .link-logotype {
+    display: inline-block;
+    margin-left: 0;
+  }
+  
+  .acsent-logo {
+    color: #f4f4fd;
+    }
   
   .subscribe-input {
     text-align: center;
@@ -153,6 +175,26 @@
     .link-logotype {
       justify-content: flex-start;
     }
+
+    
+      .link-logotype {
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+        margin-bottom: 16px;
+      }
+      .link-logotype {
+        display: inline-block;
+        margin-left: 0;
+      }
+      
+      .acsent-logo {
+        color: #f4f4fd;
+        }
   
     .footer-social {
       display: inline;
@@ -220,9 +262,20 @@
       letter-spacing: 0.32px;
       width: 264px;
     }
+    .link-logotype{
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+        margin-bottom: 16px;
+    }
     .link-logotype {
-      display: inline-block;
-      margin-bottom: 16px;
+        display: inline-block;
+        margin: 16px;
+        margin-left: auto;
     }
     .footer-social {
       display: block;
