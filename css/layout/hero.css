@@ -221,7 +221,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../../images/mobile.jpg);
+      url(../../images/background/mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -235,7 +235,7 @@
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)
             ),
-        url("../../images/mobile@2x.jpg");
+        url("../../images/background/mobile@2x.jpg");
       }
   }
     
@@ -296,7 +296,7 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
       ),
-      url(../../images/office-people-bg.jpg);
+      url(../../images/background/office-people-bg.jpg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -310,7 +310,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
           ),
-      url("../../images/office-people-bg@2x.jpg");
+      url("../../images/background/office-people-bg@2x.jpg");
     }
   }
     
@@ -536,7 +536,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(./../../images/office-people.jpg);
+        url(./../../images/background/office-people.jpg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -550,7 +550,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-      url("./../../images/office-people@2x.jpg");
+      url("./../../images/background/office-people@2x.jpg");
     }
     }
   
